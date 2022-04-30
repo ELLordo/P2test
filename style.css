@@ -1,0 +1,22 @@
+#logo
+{
+    display: flex;
+    height: 45px;
+    width: 80px;
+    margin: 40px 20px 20px;
+}
+#nav
+{
+display: flex;
+list-style-type: none;
+margin-right: 20px;
+justify-content: flex-end;
+flex-direction: row ;
+padding-right: 30px;
+}
+.hebergement
+{
+   padding-right: 40px;
+   color: blue;
+   text-decoration: overline; 
+}
