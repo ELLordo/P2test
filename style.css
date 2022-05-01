@@ -13,11 +13,20 @@ margin-right: 20px;
 justify-content: flex-end;
 flex-direction: row ;
 padding-right: 30px;
-font-size: x-large;
+
 }
 .hebergement
 {
    padding-right: 40px;
+   padding-left: 40px;
    color: blue;
-   text-decoration: overline; 
+   border-top: 3px groove blue;
+   line-height: 100px;
+}
+.activites
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 0 groove rgb(255, 255, 255);
+    line-height: 110px;
 }
