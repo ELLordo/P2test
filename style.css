@@ -1,3 +1,9 @@
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 #logo
 {
     display: flex;
@@ -7,12 +13,11 @@
 }
 #nav
 {
-display: flex;
-list-style-type: none;
-margin-right: 20px;
-justify-content: flex-end;
-flex-direction: row ;
-padding-right: 30px;
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    flex-direction: row;
+    padding-right: 30px;
 
 }
 .hebergement
@@ -29,4 +34,14 @@ padding-right: 30px;
     padding-right: 40px;
     border-top: 0 groove rgb(255, 255, 255);
     line-height: 110px;
+}
+h1
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+h2
+{
+    font-weight: normal;
+    font-size: medium;
 }
