@@ -48,11 +48,34 @@ h2
 #recherche
 {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+   
+    
 }
 .Pointeur
 {
-    height: 15px;
-    width: 15px;
-
+    height: 8vh;
+    width: 8vh;
+   border: 1px solid rgba(136, 135, 135, 0.54);
+   border-radius: 20px 0 0 20px;
+    background-color: grey;
+    margin-right: 20px ;
+}
+input 
+{
+    width: 150px;
+    height: 30px;
+    border: 0;
+    
+}
+.button
+{
+    border-collapse: collapse;
+}
+.Rechercher
+{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 0 20px 20px 0;
 }
