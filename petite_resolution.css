@@ -1,4 +1,5 @@
 #nav
 {
-flex-direction:column
+    flex-flow: column;
+    width: 90%;
 }
