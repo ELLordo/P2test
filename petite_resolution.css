@@ -1,5 +1,22 @@
+#header
+{
+    display: flex;
+   align-items: flex-start;
+   flex-direction: column;
+   font-size: 1.4em;
+}
+#logo
+{
+    display: flex;
+    height: 55px;
+    width: 100px;
+    margin: 40px 120px 20px;
+}
+.hebergement
+{
+    text-decoration: underline;
+}
 #nav
 {
-    flex-flow: column;
-    width: 90%;
+    font-size: 1.4em;
 }
