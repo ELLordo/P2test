@@ -84,7 +84,7 @@ input
     width: 100px;
     border-radius: 0 20px 20px 0;
 }
-.loupe
+#loupe
 {
     display:none;
 }
