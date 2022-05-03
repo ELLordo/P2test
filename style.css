@@ -88,3 +88,8 @@ input
 {
     display:none;
 }
+::placeholder
+{
+    font-weight: bold;
+    color: black;
+}
