@@ -118,7 +118,7 @@ input
     border: 0 solid gray;
     border-radius: 50px 50px 50px 50px;
 }
-.economie
+#economie
 {
     display: flex;
     flex-flow: row nowrap;
@@ -149,6 +149,18 @@ input
     align-items: center;
     box-sizing: border-box;
     width: 205px;
+    height: 40px;
+    border: 2px solid rgba(128, 128, 128, 0.391);
+    border-radius: 40px 40px 40px 40px;
+    border-left: 0;
+}
+#romantique
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+    width: 170px;
     height: 40px;
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
