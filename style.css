@@ -108,6 +108,7 @@ input
     justify-content: space-around;
     margin-right: 300px;
     font-weight: bold;
+    margin-top: 20px;
 }
 .picture
 {
@@ -117,7 +118,7 @@ input
     border: 0 solid gray;
     border-radius: 50px 50px 50px 50px;
 }
-#economie
+.economie
 {
     display: flex;
     flex-flow: row nowrap;
@@ -134,18 +135,6 @@ input
     display: flex;
     flex-flow: row nowrap;
     align-items: center ;
-    box-sizing: border-box;
-    width: 170px;
-    height: 40px;
-    border: 2px solid rgba(128, 128, 128, 0.391);
-    border-radius: 40px 40px 40px 40px;
-    border-left: 0;
-}
-#romantique
-{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
     box-sizing: border-box;
     width: 170px;
     height: 40px;
