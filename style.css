@@ -222,9 +222,13 @@ input
 }
 #haut
 {
-    display: inline-flex;
+    display: flex;
+    box-sizing: border-box;
+    width: 380px;
     align-items: center;
+    justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: -10px;
     
 }
 #populaire h4
@@ -247,6 +251,7 @@ input
     border-radius: 20px;
     flex-flow: row wrap;
     background-color: rgb(242,242,241);
+    justify-content: space-evenly;
 }
 #hebergement h4
 {
@@ -255,7 +260,7 @@ input
 }
 .imageh
 {
-    width: 200px;
+    width: 220px;
     height: 150px;
     border-radius: 20px 20px 0 0;
 }
@@ -263,12 +268,13 @@ input
 {
     box-sizing: border-box;
     width: 100%;
+    margin-left: 33px;
 }
 .Cannebiere
 {
     display: flex;
     box-sizing: border-box;
-    width: 230px;
+    width: 250px;
     height: 270px;
     padding: 10px;
     border: 0;
@@ -277,7 +283,6 @@ input
     border-collapse: separate;
     margin: 10px;
     background-color: white;
-    justify-content: space-between;
 }
 .noteh
 {
@@ -289,5 +294,7 @@ input
     box-sizing: border-box;
     width: 100%;
     font-weight: bold;
-    margin-left: 30px;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
 }
