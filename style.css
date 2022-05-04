@@ -253,6 +253,20 @@ input
     background-color: rgb(242,242,241);
     justify-content: space-evenly;
 }
+.Cannebiere
+{
+    display: flex;
+    box-sizing: border-box;
+    width: 250px;
+    height: 270px;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    flex-flow: column wrap;
+    border-collapse: separate;
+    margin: 10px;
+    background-color: white;
+}
 #hebergement h4
 {
     font-size: 1.25em;
@@ -269,20 +283,6 @@ input
     box-sizing: border-box;
     width: 100%;
     margin-left: 33px;
-}
-.Cannebiere
-{
-    display: flex;
-    box-sizing: border-box;
-    width: 250px;
-    height: 270px;
-    padding: 10px;
-    border: 0;
-    border-radius: 20px;
-    flex-flow: column wrap;
-    border-collapse: separate;
-    margin: 10px;
-    background-color: white;
 }
 .noteh
 {
