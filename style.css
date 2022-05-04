@@ -50,8 +50,8 @@ h2
 }
 #recherche
 {
-    display:flex;
-    flex-flow: row;
+    display:inline-flex;
+    flex-flow: row nowrap;
     box-sizing: border-box;
     width: 306px;
     height: 38px;
@@ -190,15 +190,15 @@ input
 .hotelp
 {
     box-sizing: border-box;
-    width:400px;
-    height: 190px;
+    width:380px;
+    height: 170px;
     padding: 5px;
     border: 0px solid black;
     border-radius: 20px;
     display: flex;
     flex-flow: column wrap;
     border-collapse: separate;
-    margin: 10px;
+    margin: 20px;
     background-color: white;
 }
 #etoilep
@@ -209,8 +209,8 @@ input
 }
 .imagep
 {
-    width: 170px;
-    height: 170px;
+    width: 150px;
+    height: 150px;
     border-radius: 20px 0 0 20px;
     margin-right: 5px;
 }
@@ -218,27 +218,76 @@ input
 {
     width: 70px;
     height: 20px;
+    margin-top: 30px;
 }
 #haut
 {
     display: inline-flex;
     align-items: center;
+    margin-top: 10px;
     
 }
-h4
+#populaire h4
 {
-    font-size: 1.3em;
+    font-size: 1.25em;
     display: flex;
     flex-flow: row wrap;
     box-sizing: border-box;
     width: 200px;
-    margin-top: 10px;
+    margin:10px 0 -10px 0;
 }
 #hebergement
 {
     display: flex;
     box-sizing: border-box;
-    width: 1000px;
+    width: 900px;
     height: 700px;
-    border: 1px solid black;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    flex-flow: row wrap;
+    background-color: rgb(242,242,241);
+}
+#hebergement h4
+{
+    font-size: 1.25em;
+    margin:10px 0 -15px 0;
+}
+.imageh
+{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+}
+#marseilles
+{
+    box-sizing: border-box;
+    width: 100%;
+}
+.Cannebiere
+{
+    display: flex;
+    box-sizing: border-box;
+    width: 230px;
+    height: 270px;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    flex-flow: column wrap;
+    border-collapse: separate;
+    margin: 10px;
+    background-color: white;
+    justify-content: space-between;
+}
+.noteh
+{
+    width: 70px;
+    height: 20px;
+}
+#afficher
+{
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 30px;
 }
