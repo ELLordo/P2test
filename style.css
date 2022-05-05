@@ -311,6 +311,8 @@ input
 {
     font-size: 2em;
 }
+#souvenir
+{display: none;}
 .vieux
 {
     box-sizing: border-box;

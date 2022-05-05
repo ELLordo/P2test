@@ -252,3 +252,6 @@ input
     font-size: 1.5em;
 }
 #souvenir
+{
+    display: none;
+}
