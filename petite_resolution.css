@@ -150,8 +150,9 @@ input
 }
 #louer
 {
-    display: flex;
-    flex-direction: column;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 #populaire
 {
@@ -179,7 +180,7 @@ input
 }
 #populaire h3
 {
-    font-size: 3em;
+    font-size: 3.5em;
     margin-bottom: 20px;
 }
 .imagep
@@ -203,41 +204,43 @@ input
 {
     font-size: 2em;
 }
-#hebergement
+#hebergements
 {
+    display: block;
     background-color: white;
-    
-    margin: 0;
+    margin-right: 100px;
+   
 }
 .Cannebiere
 {
-    width: 1000px;
-    height: 600px;
-    box-shadow: 5px  black;
-    border: 1px solid black;
-    
+    width: 940px;
+    height: 550px;
+    padding: 20px;
+    box-shadow: 4px  black;
+    border: 0px;
+    margin: 0 0px 30px 0 ;
 }
 .imageh
 {
     object-fit: cover;
     width: 900px;
-    height: 280px;
+    height: 300px;
 }
-#hebergement h3
+#hebergements h3
+{
+    font-size: 3.5em;
+}
+#hebergements h4
 {
     font-size: 3em;
-}
-#hebergement h4
-{
-    font-size: 3em;
-    width: 400px;
+    width: 600px;
 }
 .noteh
 {
     width: 180px;
     height: 52px;
 }
-#hebergement p
+#hebergements p
 {
     font-size: 2em;
 }
