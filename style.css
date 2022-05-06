@@ -53,20 +53,20 @@ h2
     display:inline-flex;
     flex-flow: row nowrap;
     box-sizing: border-box;
-    width: 306px;
+    width: 308px;
     height: 38px;
     padding:0;
     border: 2px solid rgba(127, 124, 124, 0.105);
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 5px 5px 5px 5px;
     margin-top: 20px;
     align-items: center;
 }
 .Pointeur
 {
-    height: 33px;
-    width: 33px;
+    height: 35px;
+    width: 35px;
     border: 0px solid rgba(170, 170, 170, 0.089);
-    border-radius: 20px 0 0 20px;
+    border-radius: 5px 0 0 5px;
     background-color: grey;
     margin-right: 15px ;
     margin-top: 4px;
@@ -84,7 +84,7 @@ input
     background-color: blue;
     color: white;
     width: 100px;
-    border-radius: 0 20px 20px 0;
+    border-radius: 0 5px 5px 0;
 }
 #loupe
 {
