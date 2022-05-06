@@ -7,10 +7,10 @@
 }
 #logo
 {
-    display: flex;
+    display: inline-flex;
     height: 30%;
     width: 40%;
-    justify-items: center;
+    margin-left: 130px;
 }
 #nav
 {
