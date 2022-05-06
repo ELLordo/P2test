@@ -105,8 +105,9 @@ input
 {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    margin-right: 300px;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 10px;
     font-weight: bold;
     margin-top: 20px;
 }
@@ -117,6 +118,12 @@ input
     margin-right: 20px;
     border: 0 solid gray;
     border-radius: 50px 50px 50px 50px;
+}
+#ensemble
+{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
 }
 #economie
 {
@@ -130,6 +137,14 @@ input
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
 }
+#rien
+{
+    display: block;
+    box-sizing: border-box;
+    width: 70px;
+    background-color: white;
+    align-content: space-around;
+}
 #familial
 {
     display: flex;
@@ -141,6 +156,7 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
+
 }
 #animaux
 {
@@ -153,6 +169,7 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
+    margin-top: 20px;
 }
 #romantique
 {
@@ -165,6 +182,11 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
+    margin-top: 20px;
+}
+#entete
+{
+    margin-top: 20px;
 }
 #louer
 {

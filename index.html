@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="petite_resolution.css" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="petite_resolution.css" />
+    <link rel="stylesheet" media="screen and (min-width: 768px and max-width: 992px )" href="responsive.css">
     <title>Booki.io</title>
 </head>
 <header id="header">
@@ -40,16 +42,19 @@
                 <p>Filtres</p>
             </article>
         
-            
+            <div id="ensemble">
             <article id="economie">
                 <img class="picture"src="images/logo/economie.png" alt="economie">
                 <p>Économique</p>
             </article>
-        
+
+                <div id="rien"></div>
+                
             <article id="familial">
                 <img class="picture" src="images/logo/familial.png" alt="familial">
                 <p>Familial</p>
             </article>
+            </div>
 
             <article id="romantique">
                 <img class="picture" src="images/logo/coeur.png" alt="romantique">
