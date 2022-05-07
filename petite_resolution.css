@@ -93,7 +93,7 @@ h2
     justify-content: flex-start;
     margin: 0;
     border-radius: 0;
-    width: 1000px;
+    width: auto;
     overflow: hidden;
 }
 #haut h3
@@ -138,6 +138,7 @@ h2
     display:block;
     justify-content: flex-start;
     margin-left: 10px;
+    width: auto;
 }
 .vieux
 {
