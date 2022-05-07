@@ -116,7 +116,6 @@ h2
     flex-direction: column nowrap;
     width: 337px;
     height: 30%;
-
     box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
     border: 0px;
     margin: 0 0px 30px 0 ;
@@ -130,5 +129,5 @@ h2
 
 #souvenir
 {
-    display: none;
+    display: flex
 }

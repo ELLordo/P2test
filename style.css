@@ -326,21 +326,108 @@ input
     width: 95%;
     height: 800px;
 }
+#souvenir
+{
+    display: inline-flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    width: 1400px;
+    height: 455px;
+    justify-content: space-between;
+}
+#souvenir h4
+{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 #actmar
 {
-    font-size: 2em;
+    font-size: large;
+ 
 }
-#souvenir
-{display: none;}
 .vieux
 {
     box-sizing: border-box;
-    width: 300px;
-    height: 600px;
+    width: 340px;
+    height: 455px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
 }
 .Ivieux
 {
-    width: 400px;
-    height: 525px;
+    width: 335px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#fort
+{
+    box-sizing: border-box;
+    width: 340px;
+    height: 230px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+}
+#Ifort
+{
+    width: 335px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#iles
+{
+    box-sizing: border-box;
+    width: 340px;
+    height: 180px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+}
+#Iiles
+{
+    width: 335px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#dame
+{
+    box-sizing: border-box;
+    width: 340px;
+    height: 210px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+}
+#Idame
+{
+    width: 335px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#longchamp
+{
+    box-sizing: border-box;
+    width: 340px;
+    height: 210px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+}
+#Ilongchamp
+{
+    width: 335px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
