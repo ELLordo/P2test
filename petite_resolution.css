@@ -109,6 +109,8 @@ h2
     display: block;
     background-color: white;
     margin-right: 100px;
+    box-sizing: content-box;
+    
 }
 .Cannebiere
 {
@@ -126,8 +128,84 @@ h2
     width: 99%;
     height: 55%;
 }
-
+#actmar
+{
+    margin-top: 850px;
+    margin-left: 10px;
+}
 #souvenir
 {
-    display: flex
+    display:block;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+.vieux
+{
+    display: block;
+    flex-direction: column nowrap;
+    width: 337px;
+    height: 30%;
+    margin: 0 0px 30px 0;
+}
+.Ivieux
+{
+    object-fit: cover;
+    width: 99%;
+    height: 55%;
+}
+#fort
+{
+    display: block;
+    flex-direction: column nowrap;
+    width: 337px;
+    height: 30%;
+    margin: 0 0px 30px 0;
+}
+#Ifort
+{
+    object-fit: cover;
+    width: 99%;
+    height: 55%;
+}
+#iles
+{
+    display: block;
+    flex-direction: column nowrap;
+    width: 337px;
+    height: 30%;
+    margin: 0 0px 30px 0;
+}
+#Iiles
+{
+    object-fit: cover;
+    width: 99%;
+    height: 55%;
+}
+#dame
+{
+    display: block;
+    flex-direction: column nowrap;
+    width: 337px;
+    height: 30%;
+    margin: 0 0px 30px 0;
+}
+#Idame
+{
+    object-fit: cover;
+    width: 99%;
+    height: 55%;
+}
+#longchamp
+{
+    display: block;
+    flex-direction: column nowrap;
+    width: 337px;
+    height: 30%;
+    margin: 0 0px 30px 0;
+}
+#Ilongchamp
+{
+    object-fit: cover;
+    width: 99%;
+    height: 55%;
 }
