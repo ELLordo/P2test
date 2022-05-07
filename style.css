@@ -122,7 +122,7 @@ input
 #ensemble
 {
     display:flex;
-    flex-direction: row;
+    flex-flow: row nowrap;
     margin-top: 20px;
 }
 #economie
@@ -139,11 +139,10 @@ input
 }
 #rien
 {
-    display: block;
+    display: flex;
     box-sizing: border-box;
     width: 70px;
     background-color: white;
-    align-content: space-around;
 }
 #familial
 {
@@ -156,7 +155,6 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
-
 }
 #animaux
 {
@@ -227,7 +225,6 @@ input
 {
     width: 30px;
     height: 30px;
-
 }
 .imagep
 {
@@ -256,7 +253,7 @@ input
 }
 #populaire h4
 {
-    font-size: 1.25em;
+    font-size: large;
     display: flex;
     flex-flow: row wrap;
     box-sizing: border-box;
@@ -292,7 +289,7 @@ input
 }
 #hebergements h4
 {
-    font-size: 1.25em;
+    font-size: large;
     margin:10px 0 -15px 0;
 }
 .imageh
