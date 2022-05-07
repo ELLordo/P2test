@@ -210,3 +210,16 @@ h2
     width: 99%;
     height: 55%;
 }
+#footer
+{
+    display: flex;
+    margin-top: 550px;
+    width: 100%;
+    height: 500px;
+    flex-flow: column nowrap;
+}
+.fin
+{
+    margin: 0;
+    margin-left: 35px;
+}
