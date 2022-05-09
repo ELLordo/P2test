@@ -10,8 +10,8 @@ body{
 #logo
 {
     display: flex;
-    height: 45px;
-    width: 80px;
+    height: 55px;
+    width: 90px;
     margin: 40px 20px 20px;
 }
 #nav
@@ -124,6 +124,7 @@ input
     display:flex;
     flex-flow: row nowrap;
     margin-top: 20px;
+    justify-content: space-around;
 }
 #economie
 {
@@ -136,13 +137,6 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
-}
-#rien
-{
-    display: flex;
-    box-sizing: border-box;
-    width: 70px;
-    background-color: white;
 }
 #familial
 {
@@ -210,8 +204,8 @@ input
 .hotelp
 {
     box-sizing: border-box;
-    width:380px;
-    height: 170px;
+    width:85%;
+    height: 180px;
     padding: 5px;
     border: 0px solid black;
     border-radius: 20px;
@@ -228,7 +222,7 @@ input
 }
 .imagep
 {
-    width: 150px;
+    width: 50%;
     height: 150px;
     border-radius: 20px 0 0 20px;
     margin-right: 5px;
@@ -236,7 +230,7 @@ input
 }
 .note
 {
-    width: 70px;
+    width: 25%;
     height: 20px;
     margin-top: 30px;
 }
@@ -244,7 +238,7 @@ input
 {
     display: flex;
     box-sizing: border-box;
-    width: 380px;
+    width: 85%;
     align-items: center;
     justify-content: space-between;
     margin-top: 10px;
@@ -257,7 +251,7 @@ input
     display: flex;
     flex-flow: row wrap;
     box-sizing: border-box;
-    width: 200px;
+    width: 50%;
     margin:10px 0 -10px 0;
 }
 #hebergements
