@@ -72,10 +72,9 @@ h2
     width: 100%;
     margin-top: -20px;
     margin-left: 5px;
-}
-#rien
+}#familial
 {
-    width: 20px;
+    margin: 0 0 0 0px;
 }
 #entete
 {
@@ -93,8 +92,16 @@ h2
     justify-content: flex-start;
     margin: 0;
     border-radius: 0;
-    width: auto;
+    width: 100%;
     overflow: hidden;
+}
+.hotelp
+{
+    width: 98%;
+}
+#populaire p
+{
+    font-size: small;
 }
 #haut h3
 {
@@ -108,9 +115,7 @@ h2
 {
     display: block;
     background-color: white;
-    margin-right: 100px;
-    box-sizing: content-box;
-    
+    margin: 0;
 }
 .Cannebiere
 {
@@ -144,7 +149,7 @@ h2
 {
     display: block;
     flex-direction: column ;
-    width: 337px;
+    width: 100%;
     height: 30%;
     margin: 0 0px 30px 0;
 }
@@ -158,7 +163,7 @@ h2
 {
     display: block;
     flex-direction: column ;
-    width: 337px;
+    width: 100%;
     height: 30%;
     margin: 0 0px 30px 0;
 }
@@ -172,7 +177,7 @@ h2
 {
     display: block;
     flex-direction: column ;
-    width: 337px;
+    width: 100%;
     height: 30%;
     margin: 0 0px 30px 0;
 }
@@ -186,7 +191,7 @@ h2
 {
     display: block;
     flex-direction: column ;
-    width: 337px;
+    width: 100%;
     height: 30%;
     margin: 0 0px 30px 0;
 }
@@ -200,7 +205,7 @@ h2
 {
     display: block;
     flex-direction: column ;
-    width: 337px;
+    width: 100%;
     height: 30%;
     margin: 0 0px 30px 0;
 }

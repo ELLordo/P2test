@@ -1,5 +1,30 @@
-body{
+@font-face {
+    font-family: Raleway;
+    src: url(Police/Raleway-Italic-VariableFont_wght.ttf);
+    src: url(Police/Raleway-VariableFont_wght.ttf);
+    src: url(Police/static/Raleway-Black.ttf);
+    src: url(Police/static/Raleway-BlackItalic.ttf);
+    src: url(Police/static/Raleway-Bold.ttf);
+    src: url(Police/static/Raleway-BoldItalic.ttf);
+    src: url(Police/static/Raleway-ExtraBold.ttf);
+    src: url(Police/static/Raleway-ExtraBoldItalic.ttf);
+    src: url(Police/static/Raleway-ExtraLight.ttf);
+    src: url(Police/static/Raleway-ExtraLightItalic.ttf);
+    src: url(Police/static/Raleway-Italic.ttf);
+    src: url(Police/static/Raleway-Light.ttf);
+    src: url(Police/static/Raleway-LightItalic.ttf);
+    src: url(Police/static/Raleway-Medium.ttf);
+    src: url(Police/static/Raleway-MediumItalic.ttf);
+    src: url(Police/static/Raleway-Regular.ttf);
+    src: url(Police/static/Raleway-SemiBold.ttf);
+    src: url(Police/static/Raleway-SemiBoldItalic.ttf);
+    src: url(Police/static/Raleway-Thin.ttf);
+    src: url(Police/static/Raleway-ThinItalic.ttf);
+}
+body
+{
     margin-left: 10px;
+    font-family: 'Raleway' , 'Times New Roman', Times, serif
 }
 #header
 {
@@ -10,8 +35,8 @@ body{
 #logo
 {
     display: flex;
-    height: 55px;
-    width: 90px;
+    height: 10%;
+    width: 12%;
     margin: 40px 20px 20px;
 }
 #nav
@@ -53,7 +78,7 @@ h2
     display:inline-flex;
     flex-flow: row nowrap;
     box-sizing: border-box;
-    width: 308px;
+    width: 302px;
     height: 38px;
     padding:0;
     border: 2px solid rgba(127, 124, 124, 0.105);
@@ -68,12 +93,12 @@ h2
     border: 0px solid rgba(170, 170, 170, 0.089);
     border-radius: 5px 0 0 5px;
     background-color: grey;
-    margin-right: 15px ;
+    margin-right: 0 ;
     margin-top: 4px;
 }
 input 
 {
-    width: 150px;
+    width: 163.8px;
     height:35px;
     border: 1px solid rgba(128, 128, 128, 0.039);
     border-left: 0;
@@ -85,6 +110,7 @@ input
     color: white;
     width: 100px;
     border-radius: 0 5px 5px 0;
+    margin-left: -5px;
 }
 #loupe
 {
@@ -98,8 +124,13 @@ input
 .info
 {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
+    margin: 10px 0 10px 0;
+}
+#Iinfo
+{
+    margin-right: 10px;
 }
 #choix
 {
@@ -124,7 +155,6 @@ input
     display:flex;
     flex-flow: row nowrap;
     margin-top: 20px;
-    justify-content: space-around;
 }
 #economie
 {
@@ -149,6 +179,7 @@ input
     border: 2px solid rgba(128, 128, 128, 0.391);
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
+    margin-left: 100px;
 }
 #animaux
 {
@@ -254,6 +285,11 @@ input
     width: 50%;
     margin:10px 0 -10px 0;
 }
+#populaire p
+{
+    flex-flow: row wrap;
+    font-size: small;
+}
 #hebergements
 {
     display: flex;
@@ -272,7 +308,7 @@ input
     display: flex;
     box-sizing: border-box;
     width: 30%;
-    height: 270px;
+    height: 40%;
     padding: 10px;
     border: 0;
     border-radius: 20px;
@@ -301,7 +337,7 @@ input
 }
 .noteh
 {
-    width: 70px;
+    width: 25%;
     height: 20px;
 }
 #afficher
@@ -318,7 +354,7 @@ input
     display: inline-flex;
     flex-flow: column wrap;
     box-sizing: border-box;
-    width: 1400px;
+    width: 100%;
     height: 455px;
     justify-content: space-between;
     margin-left: 10px;
@@ -336,7 +372,7 @@ input
 .vieux
 {
     box-sizing: border-box;
-    width: 335px;
+    width: 24%;
     height: 455px;
     padding: 0;
     border: 0;
@@ -345,7 +381,7 @@ input
 }
 .Ivieux
 {
-    width: 335px;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -353,7 +389,7 @@ input
 #fort
 {
     box-sizing: border-box;
-    width: 335px;
+    width: 24%;
     height: 230px;
     padding: 0;
     border: 0;
@@ -362,7 +398,7 @@ input
 }
 #Ifort
 {
-    width: 335px;
+    width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -370,7 +406,7 @@ input
 #iles
 {
     box-sizing: border-box;
-    width: 335px;
+    width: 24%;
     height: 180px;
     padding: 0;
     border: 0;
@@ -379,7 +415,7 @@ input
 }
 #Iiles
 {
-    width: 335px;
+    width: 100%;
     height: 130px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -387,7 +423,7 @@ input
 #dame
 {
     box-sizing: border-box;
-    width: 335px;
+    width: 24%;
     height: 210px;
     padding: 0;
     border: 0;
@@ -396,7 +432,7 @@ input
 }
 #Idame
 {
-    width: 335px;
+    width: 100%;
     height: 160px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -404,7 +440,7 @@ input
 #longchamp
 {
     box-sizing: border-box;
-    width: 335px;
+    width: 24%;
     height: 210px;
     padding: 0;
     border: 0;
@@ -413,7 +449,7 @@ input
 }
 #Ilongchamp
 {
-    width: 335px;
+    width: 100%;
     height: 160px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
@@ -445,5 +481,5 @@ input
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-    margin-left: -240px;
+    margin-left: -180px;
 }
