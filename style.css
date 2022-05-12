@@ -3,28 +3,21 @@
     src: url(Police/Raleway-Italic-VariableFont_wght.ttf);
     src: url(Police/Raleway-VariableFont_wght.ttf);
     src: url(Police/static/Raleway-Black.ttf);
-    src: url(Police/static/Raleway-BlackItalic.ttf);
     src: url(Police/static/Raleway-Bold.ttf);
-    src: url(Police/static/Raleway-BoldItalic.ttf);
     src: url(Police/static/Raleway-ExtraBold.ttf);
-    src: url(Police/static/Raleway-ExtraBoldItalic.ttf);
     src: url(Police/static/Raleway-ExtraLight.ttf);
-    src: url(Police/static/Raleway-ExtraLightItalic.ttf);
-    src: url(Police/static/Raleway-Italic.ttf);
     src: url(Police/static/Raleway-Light.ttf);
-    src: url(Police/static/Raleway-LightItalic.ttf);
     src: url(Police/static/Raleway-Medium.ttf);
-    src: url(Police/static/Raleway-MediumItalic.ttf);
     src: url(Police/static/Raleway-Regular.ttf);
     src: url(Police/static/Raleway-SemiBold.ttf);
-    src: url(Police/static/Raleway-SemiBoldItalic.ttf);
     src: url(Police/static/Raleway-Thin.ttf);
-    src: url(Police/static/Raleway-ThinItalic.ttf);
 }
 body
 {
     margin-left: 10px;
-    font-family: 'Raleway' , 'Times New Roman', Times, serif
+    font-family: 'Raleway' , 'Times New Roman', Times, serif;
+    font-style: normal;
+    overflow-x: hidden;
 }
 #header
 {
@@ -39,14 +32,13 @@ body
     width: 12%;
     margin: 40px 20px 20px;
 }
-#nav
+.nav
 {
     display: flex;
     list-style-type: none;
     margin-right: 20px;
     flex-direction: row;
     padding-right: 30px;
-
 }
 .hebergement
 {
@@ -56,12 +48,20 @@ body
    border-top: 3px groove blue;
    line-height: 100px;
 }
+.hebergement a
+{
+    text-decoration: none;color: blue;
+}
+.activites a
+{
+    text-decoration: none;color: black;
+}
 .activites
 {
     padding-left: 40px;
     padding-right: 40px;
     border-top: 0 groove rgb(255, 255, 255);
-    line-height: 110px;
+    line-height: 100px;
 }
 h1
 {
@@ -96,13 +96,19 @@ h2
     margin-right: 0 ;
     margin-top: 4px;
 }
-input 
+button
 {
     width: 163.8px;
     height:35px;
-    border: 1px solid rgba(128, 128, 128, 0.039);
+    border: 2px solid rgba(170, 170, 170, 0.089);
     border-left: 0;
     border-right: 0;
+}
+#marseille
+{
+    width: 163.8px;
+    height: 35px;
+    border: 1px solid rgba(170, 170, 170, 0.089) ;
 }
 .Rechercher
 {
@@ -232,10 +238,9 @@ input
     border-radius: 20px;
     margin-left: 40px;
 }
-.hotelp
+#populaire a
 {
     box-sizing: border-box;
-    width:85%;
     height: 180px;
     padding: 5px;
     border: 0px solid black;
@@ -243,8 +248,16 @@ input
     display: flex;
     flex-flow: column wrap;
     border-collapse: separate;
-    margin: 20px;
+    margin: 10px 20px 20px 20px;
     background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.hotelp
+{
+    box-sizing: border-box;
+    width:98%;
+
 }
 #etoilep
 {
@@ -254,7 +267,7 @@ input
 .imagep
 {
     width: 50%;
-    height: 150px;
+    height: 98%;
     border-radius: 20px 0 0 20px;
     margin-right: 5px;
     object-fit: cover;
@@ -263,7 +276,6 @@ input
 {
     width: 25%;
     height: 20px;
-    margin-top: 30px;
 }
 #haut
 {
