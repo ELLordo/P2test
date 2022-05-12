@@ -315,6 +315,11 @@ button
     background-color: rgb(242,242,241);
     justify-content: space-evenly;
 }
+.Cannebiere a
+{
+    text-decoration: none;
+    color: black;
+}
 .Cannebiere
 {
     display: flex;
@@ -370,6 +375,11 @@ button
     height: 455px;
     justify-content: space-between;
     margin-left: 10px;
+}
+#souvenir a
+{
+    text-decoration: none;
+    color: black;
 }
 #souvenir h4
 {

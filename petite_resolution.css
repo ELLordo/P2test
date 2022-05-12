@@ -76,6 +76,11 @@ h2
 {
     margin: 0 0 0 0px;
 }
+.info
+{
+    display: flex;
+    flex-flow: row nowrap;
+}
 #entete
 {
     margin-bottom: -10px;
@@ -95,9 +100,10 @@ h2
     width: 100%;
     overflow: hidden;
 }
-.hotelp
+#populaire a
 {
-    width: 98%;
+    width: 100%;
+    margin: 0;
 }
 #populaire p
 {
