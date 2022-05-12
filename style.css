@@ -170,9 +170,13 @@ button
     box-sizing: border-box;
     width: 170px;
     height: 40px;
-    border: 2px solid rgba(128, 128, 128, 0.391);
+    border: 2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
+}
+#economie:hover
+{
+    background-color: #DEEBFF;
 }
 #familial
 {
@@ -182,10 +186,14 @@ button
     box-sizing: border-box;
     width: 170px;
     height: 40px;
-    border: 2px solid rgba(128, 128, 128, 0.391);
+    border: 2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
     margin-left: 100px;
+}
+#familial:hover
+{
+    background-color: #DEEBFF;
 }
 #animaux
 {
@@ -195,10 +203,14 @@ button
     box-sizing: border-box;
     width: 205px;
     height: 40px;
-    border: 2px solid rgba(128, 128, 128, 0.391);
+    border: 2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
     margin-top: 20px;
+}
+#animaux:hover
+{
+    background-color: #DEEBFF;
 }
 #romantique
 {
@@ -208,10 +220,14 @@ button
     box-sizing: border-box;
     width: 170px;
     height: 40px;
-    border: 2px solid rgba(128, 128, 128, 0.391);
+    border: 2px solid #F2F2F2;
     border-radius: 40px 40px 40px 40px;
     border-left: 0;
     margin-top: 20px;
+}
+#romantique:hover
+{
+    background-color: #DEEBFF;
 }
 #entete
 {
@@ -234,7 +250,7 @@ button
     width: 30%;
     height: 700px;
     border: 0;
-    background-color: rgb(242,242,241);
+    background-color: #F2F2F2;
     border-radius: 20px;
     margin-left: 40px;
 }
@@ -312,7 +328,7 @@ button
     border: 0;
     border-radius: 20px;
     flex-flow: row wrap;
-    background-color: rgb(242,242,241);
+    background-color: #F2F2F2;
     justify-content: space-evenly;
 }
 .Cannebiere a
@@ -399,7 +415,7 @@ button
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
 }
 .Ivieux
 {
@@ -416,7 +432,7 @@ button
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
 }
 #Ifort
 {
@@ -433,7 +449,7 @@ button
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
 }
 #Iiles
 {
@@ -450,7 +466,7 @@ button
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
 }
 #Idame
 {
@@ -467,7 +483,7 @@ button
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
-    box-shadow: 4px 4px 4px 4px rgba(128, 128, 128, 0.391);
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
 }
 #Ilongchamp
 {
@@ -485,7 +501,7 @@ button
     box-sizing: border-box;
     width: 100%;
     height: 170px;
-    background-color: rgba(128, 128, 128, 0.391);
+    background-color: #F2F2F2;
 }
 #footer p
 {
