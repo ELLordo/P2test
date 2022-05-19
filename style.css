@@ -1,17 +1,4 @@
-@font-face {
-    font-family: Raleway;
-    src: url(Police/Raleway-Italic-VariableFont_wght.ttf);
-    src: url(Police/Raleway-VariableFont_wght.ttf);
-    src: url(Police/static/Raleway-Black.ttf);
-    src: url(Police/static/Raleway-Bold.ttf);
-    src: url(Police/static/Raleway-ExtraBold.ttf);
-    src: url(Police/static/Raleway-ExtraLight.ttf);
-    src: url(Police/static/Raleway-Light.ttf);
-    src: url(Police/static/Raleway-Medium.ttf);
-    src: url(Police/static/Raleway-Regular.ttf);
-    src: url(Police/static/Raleway-SemiBold.ttf);
-    src: url(Police/static/Raleway-Thin.ttf);
-}
+
 body
 {
     margin-left: 10px;
