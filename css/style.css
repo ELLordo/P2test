@@ -1,0 +1,516 @@
+body
+{
+    padding-left: 10px;
+    font-family: 'Raleway' , 'Times New Roman', Times, serif;
+    font-style: normal;
+    overflow-x: hidden;
+}
+#header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logo
+{
+    display: flex;
+    height: 10%;
+    width: 12%;
+    margin: 40px 20px 20px;
+}
+.nav
+{
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+    flex-direction: row;
+    padding-right: 30px;
+}
+.hebergement
+{
+   padding-right: 40px;
+   padding-left: 40px;
+   color: blue;
+   border-top: 3px groove blue;
+   line-height: 100px;
+}
+.hebergement a
+{
+    text-decoration: none;color: blue;
+}
+.activites a
+{
+    text-decoration: none;color: black;
+}
+.activites
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top: 0 groove rgb(255, 255, 255);
+    line-height: 100px;
+}
+h1
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+h2
+{
+    font-weight: normal;
+    font-size: medium;
+}
+#recherche
+{
+    display:inline-flex;
+    flex-flow: row nowrap;
+    box-sizing: border-box;
+    width: 302px;
+    height: 38px;
+    padding:0;
+    border: 2px solid rgba(127, 124, 124, 0.105);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 20px;
+    align-items: center;
+}
+.Pointeur
+{
+    height: 35px;
+    width: 35px;
+    border: 0px solid rgba(170, 170, 170, 0.089);
+    border-radius: 5px 0 0 5px;
+    background-color: grey;
+    margin-right: 0 ;
+    margin-top: 4px;
+}
+button
+{
+    width: 163.8px;
+    height:35px;
+    border: 2px solid rgba(170, 170, 170, 0.089);
+    border-left: 0;
+    border-right: 0;
+}
+#marseille
+{
+    width: 163.8px;
+    height: 35px;
+    border: 1px solid rgba(170, 170, 170, 0.089) ;
+}
+.Rechercher
+{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+    margin-left: -5px;
+}
+#loupe
+{
+    display:none;
+}
+::placeholder
+{
+    font-weight: bold;
+    color: black;
+}
+.info
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+#Iinfo
+{
+    margin-right: 10px;
+}
+#choix
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-right: 250px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.picture
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    border: 0 solid gray;
+    border-radius: 50px 50px 50px 50px;
+}
+#ensemble
+{
+    display:flex;
+    flex-flow: row nowrap;
+    margin-top: 20px;
+}
+#economie
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px 40px 40px 40px;
+    border-left: 0;
+}
+#economie:hover
+{
+    background-color: #DEEBFF;
+}
+#familial
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center ;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px 40px 40px 40px;
+    border-left: 0;
+    margin-left: 100px;
+}
+#familial:hover
+{
+    background-color: #DEEBFF;
+}
+#animaux
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+    width: 205px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px 40px 40px 40px;
+    border-left: 0;
+    margin-top: 20px;
+}
+#animaux:hover
+{
+    background-color: #DEEBFF;
+}
+#romantique
+{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-sizing: border-box;
+    width: 170px;
+    height: 40px;
+    border: 2px solid #F2F2F2;
+    border-radius: 40px 40px 40px 40px;
+    border-left: 0;
+    margin-top: 20px;
+}
+#romantique:hover
+{
+    background-color: #DEEBFF;
+}
+#entete
+{
+    margin-top: 20px;
+}
+#louer
+{
+    display: flex;
+    flex-flow: row-reverse;
+    border-collapse: separate;
+    align-content: space-around;
+}
+#wrapT
+{
+    box-sizing: border-box;
+    width: 95%;
+}
+#populaire
+{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    flex-flow: column;
+    box-sizing:border-box;
+    width: 30%;
+    height: 700px;
+    border: 0;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+#populaire a
+{
+    box-sizing: border-box;
+    height: 180px;
+    padding: 5px;
+    border: 0px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    border-collapse: separate;
+    margin: 10px 20px 20px 20px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.hotelp
+{
+    box-sizing: border-box;
+    width:98%;
+
+}
+#etoilep
+{
+    width: 30px;
+    height: 30px;
+}
+.imagep
+{
+    width: 50%;
+    height: 98%;
+    border-radius: 20px 0 0 20px;
+    margin-right: 5px;
+    object-fit: cover;
+}
+.note
+{
+    width: 25%;
+    height: 20px;
+}
+#haut
+{
+    display: flex;
+    box-sizing: border-box;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    
+}
+#populaire h4
+{
+    font-size: large;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    width: 50%;
+    margin:10px 0 -10px 0;
+}
+#populaire p
+{
+    flex-flow: row wrap;
+    font-size: small;
+    box-sizing: border-box;
+    width: 50%;
+}
+#hebergements
+{
+    display: flex;
+    box-sizing: border-box;
+    width: 70%;
+    height: 700px;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    flex-flow: row wrap;
+    background-color: #F2F2F2;
+    justify-content: space-evenly;
+}
+.Cannebiere a
+{
+    text-decoration: none;
+    color: black;
+}
+.Cannebiere
+{
+    display: flex;
+    box-sizing: border-box;
+    width: 30%;
+    height: 40%;
+    padding: 10px;
+    border: 0;
+    border-radius: 20px;
+    flex-flow: column wrap;
+    border-collapse: separate;
+    margin: 10px;
+    background-color: white;
+}
+#hebergements h4
+{
+    font-size: large;
+    margin:10px 0 -15px 0;
+}
+.imageh
+{
+    width: 98%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+#marseilles
+{
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 33px;
+}
+.noteh
+{
+    width: 25%;
+    height: 20px;
+}
+#afficher
+{
+    box-sizing: border-box;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 33px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+#souvenir
+{
+    display: inline-flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 455px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+#souvenir a
+{
+    text-decoration: none;
+    color: black;
+}
+#souvenir h4
+{
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+#actmar
+{
+    font-size: large;
+}
+.vieux
+{
+    box-sizing: border-box;
+    width: 24%;
+    height: 455px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+}
+.Ivieux
+{
+    width: 100%;
+    height: 91%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#fort
+{
+    box-sizing: border-box;
+    width: 24%;
+    height: 230px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+}
+#Ifort
+{
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#iles
+{
+    box-sizing: border-box;
+    width: 24%;
+    height: 180px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+}
+#Iiles
+{
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#dame
+{
+    box-sizing: border-box;
+    width: 24%;
+    height: 210px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+}
+#Idame
+{
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#longchamp
+{
+    box-sizing: border-box;
+    width: 24%;
+    height: 210px;
+    padding: 0;
+    border: 0;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px 4px #F2F2F2;
+}
+#Ilongchamp
+{
+    width: 100%;
+    height: 82%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+#footer 
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 170px;
+    background-color: #F2F2F2;
+}
+#footer p
+{
+    font-weight: bold;
+    margin-top: 25px;
+}
+#footer ul
+{
+    margin-left: -40px;
+    list-style-type: none; 
+    margin-top: -5px;
+}
+.fin
+{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    margin-left: -180px;
+}
