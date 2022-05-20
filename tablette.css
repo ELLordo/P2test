@@ -36,3 +36,56 @@
     display: flex;
     flex-wrap: nowrap;
 }
+#hebergements
+{
+    width: 100%;
+}
+#souvenir
+{
+    display: inline-flex;
+    flex-flow: row wrap;
+    height: 1250px;
+    width: 100%;
+    margin-right: 10px;
+    justify-content: space-around;
+}
+.vieux
+{
+    width: 48%;
+    height: 600px;
+}
+.Ivieux
+{
+    height: 93%;
+}
+#fort
+{
+    width: 48%;
+    height: 280px;
+}
+#iles
+{
+    width: 48%;
+    height: 280px;
+    position: absolute;
+    top: 232.5%;
+    right: 0.5%;
+}
+#dame
+{
+    width: 48%;
+    height: 280px;
+}
+#longchamp
+{
+    width: 48%;
+    height: 280px;
+    position: absolute;
+    top: 305%;
+    right: 0.5%;
+}
+.fin
+
+{
+    margin-left: 0%;
+}
