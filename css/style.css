@@ -400,6 +400,13 @@ button
 {
     font-size: large;
 }
+.wrapS
+{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 25%;
+    padding: 10px;
+}
 .vieux
 {
     box-sizing: border-box;
@@ -420,7 +427,7 @@ button
 #fort
 {
     box-sizing: border-box;
-    width: 24%;
+    width: 100%;
     height: 230px;
     padding: 0;
     border: 0;
@@ -437,12 +444,13 @@ button
 #iles
 {
     box-sizing: border-box;
-    width: 24%;
+    width: 100%;
     height: 180px;
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 4px 4px #F2F2F2;
+    margin-top: 30px;
 }
 #Iiles
 {
@@ -454,7 +462,7 @@ button
 #dame
 {
     box-sizing: border-box;
-    width: 24%;
+    width: 100%;
     height: 210px;
     padding: 0;
     border: 0;
@@ -471,12 +479,13 @@ button
 #longchamp
 {
     box-sizing: border-box;
-    width: 24%;
+    width: 100%;
     height: 210px;
     padding: 0;
     border: 0;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 4px 4px #F2F2F2;
+    margin-top: 30px;
 }
 #Ilongchamp
 {
