@@ -30,13 +30,12 @@ body
 {
    padding-right: 40px;
    padding-left: 40px;
-   color: blue;
-   border-top: 3px groove blue;
+   border-top: 0 groove rgb(255, 255, 255);
    line-height: 100px;
 }
 .hebergement a
 {
-    text-decoration: none;color: blue;
+    text-decoration: none;color: black;
 }
 .activites a
 {
@@ -48,6 +47,16 @@ body
     padding-right: 40px;
     border-top: 0 groove rgb(255, 255, 255);
     line-height: 100px;
+}
+.activites:hover
+{
+    border-top: 3px groove blue;
+    color: blue;
+}
+.hebergement:hover
+{
+    border-top: 3px groove blue;
+    color: blue;
 }
 h1
 {

@@ -21,17 +21,28 @@
 }
 .hebergement
 {
-    border-bottom: 6px solid blue;
+    border-bottom: 0px solid rgba(128, 128, 128, 0.775);
     border-top: none;
     width: 50%;
     text-align: center;
+    color: black;
 }
 
 .activites
 {
-    border-bottom: 6px solid rgba(128, 128, 128, 0.775);
+    border-bottom: 0px solid rgba(128, 128, 128, 0.775);
     width: 50%;
     text-align: center;
+}
+.activites:hover
+{
+    border-bottom: 6px solid blue;
+    border-top: 0;
+}
+.hebergement:hover
+{   
+    border-top: 0;
+    border-bottom: 6px solid blue;
 }
 h1
 {
